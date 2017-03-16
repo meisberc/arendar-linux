@@ -216,9 +216,9 @@ static const struct spi_device_id tpm_tis_spi_id[] = {
 MODULE_DEVICE_TABLE(spi, tpm_tis_spi_id);
 
 static const struct of_device_id of_tis_spi_match[] = {
-	{ .compatible = "st,st33htpm-spi", },
+	{ .compatible = "st,st33htpm_spi", },
 	{ .compatible = "infineon,slb9670", },
-	{ .compatible = "tcg,tpm_tis-spi", },
+	{ .compatible = "tcg,tpm_tis_spi", },
 	{}
 };
 MODULE_DEVICE_TABLE(of, of_tis_spi_match);
